@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3851E06F2BFC0856001551EA /* athena Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3851E06E2BFC0856001551EA /* athena Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3851E0742BFC0856001551EA /* athenaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851E0732BFC0856001551EA /* athenaApp.swift */; };
+		3851E0762BFC0856001551EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851E0752BFC0856001551EA /* ContentView.swift */; };
+		3851E0782BFC085A001551EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3851E0772BFC085A001551EA /* Assets.xcassets */; };
+		3851E07B2BFC085A001551EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3851E07A2BFC085A001551EA /* Preview Assets.xcassets */; };
+		3851E0852BFC085A001551EA /* athena_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851E0842BFC085A001551EA /* athena_Watch_AppTests.swift */; };
+		3851E08F2BFC085A001551EA /* athena_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851E08E2BFC085A001551EA /* athena_Watch_AppUITests.swift */; };
+		3851E0912BFC085A001551EA /* athena_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851E0902BFC085A001551EA /* athena_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3851E0702BFC0856001551EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3851E0622BFC0855001551EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3851E06D2BFC0856001551EA;
+			remoteInfo = "athena Watch App";
+		};
+		3851E0812BFC085A001551EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3851E0622BFC0855001551EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3851E06D2BFC0856001551EA;
+			remoteInfo = "athena Watch App";
+		};
+		3851E08B2BFC085A001551EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3851E0622BFC0855001551EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3851E06D2BFC0856001551EA;
+			remoteInfo = "athena Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3851E0972BFC085A001551EA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3851E06F2BFC0856001551EA /* athena Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3851E0682BFC0856001551EA /* athena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = athena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3851E06E2BFC0856001551EA /* athena Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "athena Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3851E0732BFC0856001551EA /* athenaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athenaApp.swift; sourceTree = "<group>"; };
+		3851E0752BFC0856001551EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3851E0772BFC085A001551EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3851E07A2BFC085A001551EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3851E0802BFC085A001551EA /* athena Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "athena Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3851E0842BFC085A001551EA /* athena_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athena_Watch_AppTests.swift; sourceTree = "<group>"; };
+		3851E08A2BFC085A001551EA /* athena Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "athena Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3851E08E2BFC085A001551EA /* athena_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athena_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3851E0902BFC085A001551EA /* athena_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athena_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3851E06B2BFC0856001551EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3851E07D2BFC085A001551EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3851E0872BFC085A001551EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3851E0612BFC0855001551EA = {
+			isa = PBXGroup;
+			children = (
+				3851E0722BFC0856001551EA /* athena Watch App */,
+				3851E0832BFC085A001551EA /* athena Watch AppTests */,
+				3851E08D2BFC085A001551EA /* athena Watch AppUITests */,
+				3851E0692BFC0856001551EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3851E0692BFC0856001551EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3851E0682BFC0856001551EA /* athena.app */,
+				3851E06E2BFC0856001551EA /* athena Watch App.app */,
+				3851E0802BFC085A001551EA /* athena Watch AppTests.xctest */,
+				3851E08A2BFC085A001551EA /* athena Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3851E0722BFC0856001551EA /* athena Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3851E0732BFC0856001551EA /* athenaApp.swift */,
+				3851E0752BFC0856001551EA /* ContentView.swift */,
+				3851E0772BFC085A001551EA /* Assets.xcassets */,
+				3851E0792BFC085A001551EA /* Preview Content */,
+			);
+			path = "athena Watch App";
+			sourceTree = "<group>";
+		};
+		3851E0792BFC085A001551EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3851E07A2BFC085A001551EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3851E0832BFC085A001551EA /* athena Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3851E0842BFC085A001551EA /* athena_Watch_AppTests.swift */,
+			);
+			path = "athena Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3851E08D2BFC085A001551EA /* athena Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3851E08E2BFC085A001551EA /* athena_Watch_AppUITests.swift */,
+				3851E0902BFC085A001551EA /* athena_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "athena Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3851E0672BFC0856001551EA /* athena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3851E0982BFC085A001551EA /* Build configuration list for PBXNativeTarget "athena" */;
+			buildPhases = (
+				3851E0662BFC0856001551EA /* Resources */,
+				3851E0972BFC085A001551EA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3851E0712BFC0856001551EA /* PBXTargetDependency */,
+			);
+			name = athena;
+			productName = athena;
+			productReference = 3851E0682BFC0856001551EA /* athena.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3851E06D2BFC0856001551EA /* athena Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3851E0942BFC085A001551EA /* Build configuration list for PBXNativeTarget "athena Watch App" */;
+			buildPhases = (
+				3851E06A2BFC0856001551EA /* Sources */,
+				3851E06B2BFC0856001551EA /* Frameworks */,
+				3851E06C2BFC0856001551EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "athena Watch App";
+			productName = "athena Watch App";
+			productReference = 3851E06E2BFC0856001551EA /* athena Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3851E07F2BFC085A001551EA /* athena Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3851E09B2BFC085A001551EA /* Build configuration list for PBXNativeTarget "athena Watch AppTests" */;
+			buildPhases = (
+				3851E07C2BFC085A001551EA /* Sources */,
+				3851E07D2BFC085A001551EA /* Frameworks */,
+				3851E07E2BFC085A001551EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3851E0822BFC085A001551EA /* PBXTargetDependency */,
+			);
+			name = "athena Watch AppTests";
+			productName = "athena Watch AppTests";
+			productReference = 3851E0802BFC085A001551EA /* athena Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3851E0892BFC085A001551EA /* athena Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3851E09E2BFC085A001551EA /* Build configuration list for PBXNativeTarget "athena Watch AppUITests" */;
+			buildPhases = (
+				3851E0862BFC085A001551EA /* Sources */,
+				3851E0872BFC085A001551EA /* Frameworks */,
+				3851E0882BFC085A001551EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3851E08C2BFC085A001551EA /* PBXTargetDependency */,
+			);
+			name = "athena Watch AppUITests";
+			productName = "athena Watch AppUITests";
+			productReference = 3851E08A2BFC085A001551EA /* athena Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3851E0622BFC0855001551EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3851E0672BFC0856001551EA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3851E06D2BFC0856001551EA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3851E07F2BFC085A001551EA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3851E06D2BFC0856001551EA;
+					};
+					3851E0892BFC085A001551EA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3851E06D2BFC0856001551EA;
+					};
+				};
+			};
+			buildConfigurationList = 3851E0652BFC0855001551EA /* Build configuration list for PBXProject "athena" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3851E0612BFC0855001551EA;
+			productRefGroup = 3851E0692BFC0856001551EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3851E0672BFC0856001551EA /* athena */,
+				3851E06D2BFC0856001551EA /* athena Watch App */,
+				3851E07F2BFC085A001551EA /* athena Watch AppTests */,
+				3851E0892BFC085A001551EA /* athena Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3851E0662BFC0856001551EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3851E06C2BFC0856001551EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3851E07B2BFC085A001551EA /* Preview Assets.xcassets in Resources */,
+				3851E0782BFC085A001551EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3851E07E2BFC085A001551EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3851E0882BFC085A001551EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3851E06A2BFC0856001551EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3851E0762BFC0856001551EA /* ContentView.swift in Sources */,
+				3851E0742BFC0856001551EA /* athenaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3851E07C2BFC085A001551EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3851E0852BFC085A001551EA /* athena_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3851E0862BFC085A001551EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3851E08F2BFC085A001551EA /* athena_Watch_AppUITests.swift in Sources */,
+				3851E0912BFC085A001551EA /* athena_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3851E0712BFC0856001551EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3851E06D2BFC0856001551EA /* athena Watch App */;
+			targetProxy = 3851E0702BFC0856001551EA /* PBXContainerItemProxy */;
+		};
+		3851E0822BFC085A001551EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3851E06D2BFC0856001551EA /* athena Watch App */;
+			targetProxy = 3851E0812BFC085A001551EA /* PBXContainerItemProxy */;
+		};
+		3851E08C2BFC085A001551EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3851E06D2BFC0856001551EA /* athena Watch App */;
+			targetProxy = 3851E08B2BFC085A001551EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3851E0922BFC085A001551EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3851E0932BFC085A001551EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3851E0952BFC085A001551EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"athena Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = athena;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.athena.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		3851E0962BFC085A001551EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"athena Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = athena;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.athena.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		3851E0992BFC085A001551EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				INFOPLIST_KEY_CFBundleDisplayName = athena;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.athena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3851E09A2BFC085A001551EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				INFOPLIST_KEY_CFBundleDisplayName = athena;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.athena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3851E09C2BFC085A001551EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neilauroni.athena-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/athena Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/athena Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		3851E09D2BFC085A001551EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neilauroni.athena-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/athena Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/athena Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		3851E09F2BFC085A001551EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neilauroni.athena-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "athena Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		3851E0A02BFC085A001551EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neilauroni.athena-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "athena Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3851E0652BFC0855001551EA /* Build configuration list for PBXProject "athena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3851E0922BFC085A001551EA /* Debug */,
+				3851E0932BFC085A001551EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3851E0942BFC085A001551EA /* Build configuration list for PBXNativeTarget "athena Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3851E0952BFC085A001551EA /* Debug */,
+				3851E0962BFC085A001551EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3851E0982BFC085A001551EA /* Build configuration list for PBXNativeTarget "athena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3851E0992BFC085A001551EA /* Debug */,
+				3851E09A2BFC085A001551EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3851E09B2BFC085A001551EA /* Build configuration list for PBXNativeTarget "athena Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3851E09C2BFC085A001551EA /* Debug */,
+				3851E09D2BFC085A001551EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3851E09E2BFC085A001551EA /* Build configuration list for PBXNativeTarget "athena Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3851E09F2BFC085A001551EA /* Debug */,
+				3851E0A02BFC085A001551EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3851E0622BFC0855001551EA /* Project object */;
+}
